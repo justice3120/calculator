@@ -1,0 +1,54 @@
+'menu': [
+  {
+    label: '表示(V)'
+    submenu: [
+      { label: '普通の電卓(T)', command: '' }
+      { label: '関数電卓(S)', command: '' }
+      { label: 'プログラマ(P)', command: '' }
+      { label: '統計(A)', command: '' }
+      { type: 'separator' }
+      { label: '履歴(Y)', command: '' }
+      { label: '桁区切り(I)', command: '' }
+      { type: 'separator' }
+      { label: '基本(B)', command: '' }
+      { label: '単位の変換(U)', command: '' }
+      { label: '日付の計算(D)', command: '' }
+      {
+        label: 'ワークシート(W)',
+        submenu: [
+          { label: '住宅ローン(M)', command: '' }
+          { label: '自動車リース(V)', command: '' }
+          { label: '燃費(km/L)(F)', command: '' }
+          { label: '燃費(L/100km)(U)', command: '' }
+        ]
+      }
+    ]
+  }
+
+  {
+    label: '編集(E)'
+    submenu: [
+      { label: 'コピー(C)', command: '' }
+      { label: '貼り付け(P)', command: '' }
+      { type: 'separator' }
+      {
+        label: '履歴(H)',
+        submenu: [
+          { label: '履歴のコピー(I)', command: '' }
+          { label: '編集(E)', command: '' }
+          { label: '編集の取り消し(N)', command: '' }
+          { label: 'クリア(L)', command: '' }
+        ]
+      }
+    ]
+  }
+
+  {
+    label: 'ヘルプ(H)'
+    submenu: [
+      { label: 'ヘルプの表示(V)', command: '' }
+      { type: 'separator' }
+      { label: 'バージョン情報(A)', command: '' }
+    ]
+  }
+]

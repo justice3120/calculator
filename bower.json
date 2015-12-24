@@ -1,0 +1,18 @@
+{
+  "name": "electoron",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "坂本 正義 <m.sakamoto_2@jp.fujitsu.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

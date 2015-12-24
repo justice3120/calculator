@@ -1,0 +1,13 @@
+{
+  "name": "electoron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node_modules/.bin/electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "https-proxy": "http://m.sakamoto_2@jp.fujitsu.com:1234567890@nmb.proxy.nic.fujitsu.com:8080",
+  "proxy": "http://m.sakamoto_2@jp.fujitsu.com:1234567890@nmb.proxy.nic.fujitsu.com:8080"
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>電卓</title>
+    <meta name="description" content="">
+    <meta name="keywords" content=""/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body ng-app="app" ng-controller="RootCtrl as root">
+  <div id="appMain">
+    <div id="screen">
+    </div>
+    <table class="btn-set">
+      <tr>
+        <td>MC</td>
+        <td>MR</td>
+        <td>MS</td>
+        <td>M+</td>
+        <td>M-</td>
+      </tr>
+      <tr>
+        <td>←</td>
+        <td>CE</td>
+        <td>C</td>
+        <td>±</td>
+        <td>√</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+        <td>/</td>
+        <td>%</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>*</td>
+        <td>1/χ</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>-</td>
+        <td rowspan="2">=</td>
+      </tr>
+      <tr>
+        <td colspan="2">0</td>
+        <td>.</td>
+        <td>+</td>
+      </tr>
+    </table>
+  </div>
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+{
+  "proxy" : "http://m.sakamoto_2@jp.fujitsu.com:1234567890@nmb.proxy.nic.fujitsu.com:8080",
+  "https-proxy" : "http://m.sakamoto_2@jp.fujitsu.com:1234567890@nmb.proxy.nic.fujitsu.com:8080"
+}
